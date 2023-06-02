@@ -2,7 +2,7 @@ package org.insa.graphs.algorithm;
 
 import org.insa.graphs.model.Arc;
 import org.insa.graphs.model.Graph;
-//import org.insa.graphs.model.GraphStatistics;
+import org.insa.graphs.model.GraphStatistics;
 
 /**
  * Base class for algorithm input data classes. This class contains the basic
@@ -78,12 +78,9 @@ public abstract class AbstractInputData {
      *         {@link GraphStatistics#NO_MAXIMUM_SPEED} if none is set.
      */
     
-    /* Apparently, getMaximumSpeed is never initialized in arcInspectors.
-     * => Do not use.
     public int getMaximumSpeed() {
         return this.arcInspector.getMaximumSpeed();
     }
-    */
     
     /**
      * Check if the given arc is allowed for the filter corresponding to this input.
