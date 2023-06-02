@@ -77,11 +77,10 @@ public abstract class AbstractInputData {
      * @return The maximum speed for this inspector, or
      *         {@link GraphStatistics#NO_MAXIMUM_SPEED} if none is set.
      */
-    
     public int getMaximumSpeed() {
         return this.arcInspector.getMaximumSpeed();
     }
-    
+
     /**
      * Check if the given arc is allowed for the filter corresponding to this input.
      * 
